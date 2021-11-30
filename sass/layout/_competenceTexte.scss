@@ -1,0 +1,25 @@
+.compétenceText{
+    h2{
+        margin-left: 60%;
+        margin-bottom: 5rem;
+    }
+    margin-top: 10vh;
+    ul{
+        display: grid;
+        grid-template-columns: repeat(1, 14fr);
+        align-items: space-between;
+        text-align: justify;
+        li{
+            span{
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: #FFB800;
+            }
+            padding: 1vh;
+            color: #fff;
+            list-style: none;
+            font-size: 1.3rem;
+            line-height: 1.5rem;
+        }
+    }
+}
