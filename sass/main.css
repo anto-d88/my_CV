@@ -46,7 +46,10 @@ header {
   justify-content: center;
   align-items: center;
   /*background-size: cover;*/
-  background-color: rgba(18, 59, 137, 0.5);
+  /*background-color: rgb(18, 59, 137, 0.5);*/
+  background-image: url(../img/Circuit-Tree-Vector.jpg);
+  opacity: 0.75;
+  background-size: cover;
 }
 
 .banniere {
@@ -102,8 +105,9 @@ header {
 .navbar a {
   color: #fff;
   text-decoration: none;
-  margin-left: 30px;
+  margin-left: 3rem;
   font-weight: 700;
+  font-size: 1.4rem;
 }
 
 header .navbar li a:hover {

@@ -6,8 +6,10 @@
     justify-content: center;
     align-items: center;
     /*background-size: cover;*/
-    background-color: rgb(18, 59, 137, 0.5);
-    
+    /*background-color: rgb(18, 59, 137, 0.5);*/
+    background-image: url(../img/Circuit-Tree-Vector.jpg);
+    opacity: 0.75;
+    background-size: cover;
 }
 .banniere {
     position: relative;
