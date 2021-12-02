@@ -23,3 +23,23 @@ header {
 .menuToggle{
     display: none;
 }
+.icone{
+    // position: sticky;
+    padding: 2vh;
+    right: 0;
+    top: 50vh;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    position: absolute;
+    z-index: 1;
+
+    .pdf{
+    color: #fff;
+    width: 6vh;
+    height: 6vh;
+    }
+    .github{
+    width: 6vh;
+    height: 6vh;
+    }
+}

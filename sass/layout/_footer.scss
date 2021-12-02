@@ -1,13 +1,26 @@
-footer {
+// footer {
+//     position: relative;
+//     width: 100%;
+//     min-height: 100vh;
+//     background-size: cover;
+//     background-color: #fff;
+// }
+// .titre {
+//     color: #fff;
+// }
+// .titre span {
+//     color:  #fff;
+// }
+footer{
     position: relative;
     width: 100%;
-    min-height: 100vh;
-    background-size: cover;
-    background-color: #fff;
-}
-.titre {
-    color: #fff;
-}
-.titre span {
-    color:  #fff;
+    background: #177D9D;
+    // min-height: 2vh;
+    text-align: center;
+
+    p{
+        color: #fff;
+        font-size: 150%;
+        padding: 2vh;
+    }
 }
