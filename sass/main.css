@@ -48,6 +48,10 @@ header {
   position: absolute;
   z-index: 1;
 }
+.icone .gallery {
+  width: 6vh;
+  height: 7vh;
+}
 .icone .pdf {
   color: #fff;
   width: 6vh;
@@ -102,6 +106,7 @@ img[src="./img/photo.png"] {
 }
 
 .photo h2 {
+  text-align: center;
   position: relative;
   color: #fff;
   font-size: 3em;
@@ -324,59 +329,6 @@ footer p {
   padding: 2vh;
 }
 
-@media (max-width: 480px) {
-  .t .tp {
-    color: #FFB800;
-    font-size: 1.2em;
-  }
-
-  .t2 .tp {
-    color: #FFB800;
-    font-size: 1.2em;
-  }
-
-  header {
-    overflow: visible;
-  }
-
-  .banniere .contenu h2 {
-    font-size: 2em;
-    color: #fff;
-  }
-
-  .profil h2 {
-    margin-top: 4rem;
-    font-size: 1.5em;
-  }
-
-  .profil p {
-    margin-top: 1rem;
-    font-size: 1em;
-  }
-
-  .cv {
-    font-size: 1em;
-  }
-
-  .competence1 img {
-    width: 60px;
-    height: 60px;
-  }
-
-  .competence2 img {
-    width: 50px;
-    height: 50px;
-  }
-
-  .contactbox {
-    margin: auto;
-  }
-
-  .contactbox {
-    margin-top: 2rem;
-    box-shadow: none;
-  }
-}
 @media (max-width: 991px) {
   header,
 header.sticky {
@@ -435,6 +387,10 @@ header.sticky {
     filter: invert(1);
   }
 
+  .icone {
+    top: 10vh;
+  }
+
   .contactbox {
     margin-left: 25%;
   }
@@ -444,16 +400,17 @@ header.sticky {
     margin: auto;
   }
 
-  .banniere .contenu h2 {
-    font-size: 2.2em;
-    text-transform: capitalize;
+  .contenu {
+    background-image: url(../img/Circuit-Tree-Vector_Recadrer1.jpg);
+    opacity: 0.75;
   }
 
-  .banniere .contenu .photo img[src="./img/photo.png"] {
-    box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
-    width: 175px;
-    height: 175px;
-    border-radius: 50%;
+  .photo h2 {
+    font-size: 2.5em;
+  }
+
+  .photo h2 span {
+    font-size: 1.5em;
   }
 
   .profil h2 {
@@ -461,7 +418,11 @@ header.sticky {
   }
 
   .profil p {
-    font-size: 1.2em;
+    font-size: 1.6em;
+  }
+
+  .compétenceText ul li {
+    font-size: 1rem;
   }
 
   .cv {
@@ -520,6 +481,67 @@ header.sticky {
   .contactbox {
     margin-top: 70px;
     padding: 20px 50px;
+  }
+}
+@media (max-width: 666px) {
+  .t .tp {
+    color: #FFB800;
+    font-size: 1.2em;
+  }
+
+  .t2 .tp {
+    color: #FFB800;
+    font-size: 1.2em;
+  }
+
+  header {
+    overflow: visible;
+  }
+
+  .contenu {
+    background-image: url(../img/Circuit-Tree-Vector_Recadrer2.jpg);
+    opacity: 0.75;
+  }
+
+  .photo h2 {
+    font-size: 2em;
+  }
+
+  .photo h2 span {
+    font-size: 1.5em;
+  }
+
+  .profil h2 {
+    margin-top: 4rem;
+    font-size: 1.5em;
+  }
+
+  .profil p {
+    margin-top: 2rem;
+    font-size: 1.3em;
+  }
+
+  .cv {
+    font-size: 1em;
+  }
+
+  .competence1 img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .competence2 img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contactbox {
+    margin: auto;
+  }
+
+  .contactbox {
+    margin-top: 2rem;
+    box-shadow: none;
   }
 }
 

@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 666px) {
     .t .tp {
         color: #FFB800;
         font-size: 1.2em;
@@ -10,18 +10,25 @@
     header {
         overflow: visible;
     }
+    .contenu{
+        background-image: url(../img/Circuit-Tree-Vector_Recadrer2.jpg);
+        opacity: 0.75;
+    }
 
-    .banniere .contenu h2{
+    .photo h2{
         font-size: 2em;
-        color: #fff;
+    }
+    .photo h2 span {
+
+        font-size: 1.5em;    
     }
     .profil h2 {
         margin-top: 4rem;
         font-size: 1.5em;
     }
     .profil p {
-        margin-top: 1rem;
-        font-size: 1em;
+        margin-top: 2rem;
+        font-size: 1.3em;
     }
     .cv{
         font-size: 1em;
