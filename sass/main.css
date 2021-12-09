@@ -43,10 +43,14 @@ header {
   padding: 2vh;
   right: 0;
   top: 50vh;
-  display: grid;
+  display: none;
   grid-template-columns: repeat(1, 2fr);
   position: absolute;
   z-index: 1;
+  -webkit-animation-name: animatefor;
+  -webkit-animation-duration: 0.8s;
+  animation-name: animatefor;
+  animation-duration: 0.8s;
 }
 .icone .gallery {
   width: 6vh;
@@ -62,6 +66,26 @@ header {
   height: 6vh;
 }
 
+@-webkit-keyframes animatefor {
+  from {
+    right: -100%;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+@keyframes animatefor {
+  from {
+    right: -100%;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
 .cardcont {
   top: 10vh;
   background-color: #fff;
@@ -107,20 +131,6 @@ header {
   padding: 2vh;
 }
 
-.contenu {
-  position: absolute;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /*background-size: cover;*/
-  /*background-color: rgb(18, 59, 137, 0.5);*/
-  background-image: url(../img/Circuit-Tree-Vector.jpg);
-  opacity: 0.75;
-  background-size: cover;
-}
-
 .photo {
   display: grid;
 }
@@ -164,6 +174,40 @@ img[src="./img/photo.png"] {
   font-size: 1.5em;
 }
 
+.contenu {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  /*background-size: cover;*/
+  /*background-color: rgb(18, 59, 137, 0.5);*/
+  opacity: 0.75;
+  background-image: url(../img/Circuit-Tree-Vector.jpg);
+  background-size: cover;
+  -webkit-animation-name: animateform;
+  -webkit-animation-duration: 0.8s;
+  animation-name: animateform;
+  animation-duration: 0.8s;
+}
+
+@-webkit-keyframes animateform {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+@keyframes animateform {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
 .navbar {
   display: flex;
   position: relative;

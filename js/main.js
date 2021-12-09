@@ -5,6 +5,7 @@ const infoContact = {
 }
 
 
+// MENU DEROULANT //****************************
 window.addEventListener('scroll', function(){
     const header =document.querySelector('header');
     header.classList.toggle("sticky", window.scrollY > 0 );
@@ -59,3 +60,18 @@ sectionContact.onclick = function(){
     }
 }
 
+// CHANGE DE BANNIERE //*****************************
+const changeBanniere = document.querySelector(".contenu");
+
+function interf() {
+    changeBanniere.style.display = "flex";
+};
+
+setTimeout(interf, 1000);
+
+const icone = document.querySelector(".icone");
+
+function iconn() {
+    icone.style.display = "grid";
+};
+setTimeout(iconn, 1500);
