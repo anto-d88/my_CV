@@ -30,10 +30,14 @@ header {
     padding: 2vh;
     right: 0;
     top: 50vh;
-    display: grid;
+    display: none;
     grid-template-columns: repeat(1, 2fr);
     position: absolute;
     z-index: 1;
+    -webkit-animation-name: animatefor;
+    -webkit-animation-duration: 0.8s;
+    animation-name: animatefor;
+    animation-duration: 0.8s;
 
     .gallery {
         width: 6vh;
@@ -49,3 +53,24 @@ header {
     height: 6vh;
     }
 }
+@-webkit-keyframes animatefor {
+    from {
+      right: -100%;
+      opacity: 0;
+    }
+    to {
+      right: 0;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes animatefor {
+    from {
+      right: -100%;
+      opacity: 0;
+    }
+    to {
+      right: 0;
+      opacity: 1;
+    }
+  }
