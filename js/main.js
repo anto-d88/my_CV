@@ -1,6 +1,6 @@
 const infoContact = {
     Salutation : "<h4>Hello!</h4>",
-    Message : "<p>Pour me contacter, </br> Clicker par-ici :)</p>",
+    Message : "<p>Pour me contacter, </br> Clickez ici :)</p>",
     mailLien : "Contact",
 }
 
@@ -47,18 +47,34 @@ generate();
 
 const sectionContact = document.querySelector(".Contact");
 
+
 sectionContact.onclick = function(){
         let sect = document.querySelector(".cardcont");
     sect.style.display = "grid"; 
     
-
-    window.onclick = function (event) {
+   window.onclick = function (event) {
       if (event.target == sect) {
         sect.style.display = "none";
-        // document.querySelector(".cardcont").style.display = "none";
+        document.querySelector(".cardcont").style.display = "none";
         }
     }
-}
+
+} 
+sectionContact.onclick = function(){
+        let sect = document.querySelector(".cardcont");
+    sect.style.display = "grid"; 
+    
+   window.onclick = function (event) {
+      if (event.target == sect) {
+        sect.style.display = "none";
+        document.querySelector(".cardcont").style.display = "none";
+        }
+    }
+
+} 
+
+
+
 
 // CHANGE DE BANNIERE //*****************************
 const changeBanniere = document.querySelector(".contenu");

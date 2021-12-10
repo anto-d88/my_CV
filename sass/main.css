@@ -239,10 +239,13 @@ header .navbar li a:hover {
 
 .profil h2 {
   margin-left: 70%;
-  margin-top: 5rem;
   color: #fff;
   font-size: 3em;
   text-transform: capitalize;
+}
+
+.titleProfil {
+  margin-top: 5rem;
 }
 
 .profil h2 span {
@@ -255,6 +258,16 @@ header .navbar li a:hover {
   text-align: justify;
   color: #ffff;
   font-size: 1.8em;
+}
+
+.logogit {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.git {
+  width: 50%;
 }
 
 .competence {
@@ -318,9 +331,11 @@ header .navbar li a:hover {
 .compétenceText {
   margin-top: 10vh;
 }
+.compétenceText .space {
+  opacity: 0;
+}
 .compétenceText h2 {
   margin-left: 60%;
-  margin-bottom: 5rem;
 }
 .compétenceText ul {
   display: grid;
@@ -339,6 +354,11 @@ header .navbar li a:hover {
   font-size: 1.3rem;
   font-weight: 600;
   color: #FFB800;
+}
+
+.titleCompetence {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 .degra {
