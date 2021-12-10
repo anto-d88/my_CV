@@ -335,7 +335,7 @@ header .navbar li a:hover {
   opacity: 0;
 }
 .compétenceText h2 {
-  margin-left: 60%;
+  float: right;
 }
 .compétenceText ul {
   display: grid;
@@ -463,6 +463,7 @@ header.sticky {
       padding: 20px;
   }*/
   header .navbar.active {
+    z-index: 10;
     width: 100%;
     /*height: calc(100% -68px);*/
     position: fixed;
