@@ -1,4 +1,17 @@
+@media (max-width: 400px){
+
+    header .navbar.active{
+        width: 93.5%;
+        top: 57px;
+    }
+}
+
+
+
 @media (max-width: 666px) {
+    header .navbar.active{
+        top: 57px;
+    }
     .t .tp {
         color: #FFB800;
         font-size: 1.2em;
