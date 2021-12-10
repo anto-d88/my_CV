@@ -1,230 +1,4 @@
 @charset "UTF-8";
-@media (max-width: 991px) {
-  header,
-header.sticky {
-    padding: 10px 20px;
-  }
-
-  header .navbar li {
-    margin-left: 0px;
-  }
-
-  header .navbar li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 100%;
-    font-weight: 300;
-  }
-
-  .navbar {
-    display: none;
-  }
-
-  /*section{
-      padding: 20px;
-  }*/
-  header .navbar.active {
-    z-index: 10;
-    width: 100%;
-    /*height: calc(100% -68px);*/
-    position: fixed;
-    top: 68px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background: #177D9D;
-    align-items: center;
-  }
-
-  .menuToggle {
-    display: block;
-    position: relative;
-    color: #fff;
-    font-size: 2rem;
-    transform: rotate(90deg);
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-  }
-
-  .menuToggle.active {
-    color: #fff;
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-origin: center;
-  }
-
-  header.sticky .menuToggle {
-    filter: invert(1);
-  }
-
-  .icone {
-    top: 10vh;
-  }
-
-  .contactbox {
-    margin-left: 25%;
-  }
-
-  .contactbox {
-    max-width: 400px;
-    margin: auto;
-  }
-
-  .contenu {
-    background-image: url(../img/Circuit-Tree-Vector_Recadrer1.jpg);
-    opacity: 0.75;
-  }
-
-  .photo h2 {
-    font-size: 2.5em;
-  }
-
-  .photo h2 span {
-    font-size: 1.5em;
-  }
-
-  .profil h2 {
-    font-size: 2.2em;
-  }
-
-  .profil p {
-    font-size: 1.6em;
-  }
-
-  .compétenceText ul li {
-    font-size: 1rem;
-  }
-
-  .cv {
-    font-size: 1.8em;
-  }
-
-  .profil {
-    max-width: 80%;
-  }
-
-  .t h3 {
-    color: rgba(0, 0, 0, 0);
-  }
-
-  .t2 h3 {
-    color: rgba(0, 0, 0, 0);
-  }
-
-  .competence1 {
-    margin-top: 4rem;
-  }
-
-  .competence1 img {
-    width: 80px;
-    height: 80px;
-  }
-
-  .t {
-    margin-top: 4rem;
-  }
-
-  .competence2 {
-    margin-top: 4rem;
-  }
-
-  .competence2 img {
-    width: 70px;
-    height: 70px;
-  }
-
-  .t2 {
-    margin-top: 4rem;
-    margin-bottom: 10rem;
-  }
-
-  .t .tp {
-    color: #FFB800;
-    font-size: 1.5em;
-  }
-
-  .t2 .tp {
-    color: #FFB800;
-    font-size: 1.5em;
-  }
-
-  .contactbox {
-    margin-top: 70px;
-    padding: 20px 50px;
-  }
-}
-@media (max-width: 400px) {
-  header .navbar.active {
-    width: 93.5%;
-    top: 57px;
-  }
-}
-@media (max-width: 666px) {
-  header .navbar.active {
-    top: 57px;
-  }
-
-  .t .tp {
-    color: #FFB800;
-    font-size: 1.2em;
-  }
-
-  .t2 .tp {
-    color: #FFB800;
-    font-size: 1.2em;
-  }
-
-  header {
-    overflow: visible;
-  }
-
-  .contenu {
-    background-image: url(../img/Circuit-Tree-Vector_Recadrer2.jpg);
-    opacity: 0.75;
-  }
-
-  .photo h2 {
-    font-size: 2em;
-  }
-
-  .photo h2 span {
-    font-size: 1.5em;
-  }
-
-  .profil h2 {
-    margin-top: 4rem;
-    font-size: 1.5em;
-  }
-
-  .profil p {
-    margin-top: 2rem;
-    font-size: 1.3em;
-  }
-
-  .cv {
-    font-size: 1em;
-  }
-
-  .competence1 img {
-    width: 60px;
-    height: 60px;
-  }
-
-  .competence2 img {
-    width: 50px;
-    height: 50px;
-  }
-
-  .contactbox {
-    margin: auto;
-  }
-
-  .contactbox {
-    margin-top: 2rem;
-    box-shadow: none;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -662,6 +436,233 @@ footer p {
   color: #fff;
   font-size: 150%;
   padding: 2vh;
+}
+
+@media (max-width: 991px) {
+  header,
+header.sticky {
+    padding: 10px 20px;
+  }
+
+  header .navbar li {
+    margin-left: 0px;
+  }
+
+  header .navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 100%;
+    font-weight: 300;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  /*section{
+      padding: 20px;
+  }*/
+  header .navbar.active {
+    z-index: 10;
+    width: 100%;
+    /*height: calc(100% -68px);*/
+    position: fixed;
+    top: 68px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #177D9D;
+    align-items: center;
+  }
+
+  .menuToggle {
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 2rem;
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  .menuToggle.active {
+    color: #fff;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-origin: center;
+  }
+
+  header.sticky .menuToggle {
+    filter: invert(1);
+  }
+
+  .icone {
+    top: 10vh;
+  }
+
+  .contactbox {
+    margin-left: 25%;
+  }
+
+  .contactbox {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .contenu {
+    background-image: url(../img/Circuit-Tree-Vector_Recadrer1.jpg);
+    opacity: 0.75;
+  }
+
+  .photo h2 {
+    font-size: 2.5em;
+  }
+
+  .photo h2 span {
+    font-size: 1.5em;
+  }
+
+  .profil h2 {
+    font-size: 2.2em;
+  }
+
+  .profil p {
+    font-size: 1.6em;
+  }
+
+  .compétenceText ul li {
+    font-size: 1rem;
+  }
+
+  .cv {
+    font-size: 1.8em;
+  }
+
+  .profil {
+    max-width: 80%;
+  }
+
+  .t h3 {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .t2 h3 {
+    color: rgba(0, 0, 0, 0);
+  }
+
+  .competence1 {
+    margin-top: 4rem;
+  }
+
+  .competence1 img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .t {
+    margin-top: 4rem;
+  }
+
+  .competence2 {
+    margin-top: 4rem;
+  }
+
+  .competence2 img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .t2 {
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+  }
+
+  .t .tp {
+    color: #FFB800;
+    font-size: 1.5em;
+  }
+
+  .t2 .tp {
+    color: #FFB800;
+    font-size: 1.5em;
+  }
+
+  .contactbox {
+    margin-top: 70px;
+    padding: 20px 50px;
+  }
+}
+@media (max-width: 400px) {
+  header .navbar.active {
+    width: 93.5%;
+    top: 57px;
+  }
+}
+@media (max-width: 666px) {
+  header .navbar.active {
+    top: 57px;
+  }
+
+  .t .tp {
+    color: #FFB800;
+    font-size: 1.2em;
+  }
+
+  .t2 .tp {
+    color: #FFB800;
+    font-size: 1.2em;
+  }
+
+  header {
+    overflow: visible;
+  }
+
+  .contenu {
+    background-image: url(../img/Circuit-Tree-Vector_Recadrer2.jpg);
+    opacity: 0.75;
+  }
+
+  .photo h2 {
+    font-size: 2em;
+  }
+
+  .photo h2 span {
+    font-size: 1.5em;
+  }
+
+  .profil h2 {
+    margin-top: 4rem;
+    font-size: 1.5em;
+  }
+
+  .profil p {
+    margin-top: 2rem;
+    font-size: 1.3em;
+  }
+
+  .cv {
+    font-size: 1em;
+  }
+
+  .competence1 img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .competence2 img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contactbox {
+    margin: auto;
+  }
+
+  .contactbox {
+    margin-top: 2rem;
+    box-shadow: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
