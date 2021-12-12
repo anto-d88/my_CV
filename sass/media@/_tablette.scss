@@ -1,4 +1,20 @@
 @media (max-width: 991px) {
+    .modalContact{
+        border-radius: 0;
+        border: none;
+        width: 100%;
+        right: 0;
+        @keyframes animatetop {
+    from {
+        right:0; 
+        opacity:0;
+      }
+      to {
+        right:0; 
+        opacity:1;
+      }
+    }
+}
 
     header, 
     header.sticky{
@@ -19,17 +35,12 @@
     .navbar{
         display: none;
     }
-    /*section{
-        padding: 20px;
-    }*/
     
     header .navbar.active{
         z-index: 10;
         width: 100%;
-        /*height: calc(100% -68px);*/
         position: fixed;
         top: 68px;
-        // left:0;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -74,12 +85,6 @@
         opacity: 0.75;
     }
 
-//  img[src="./img/photo.png"] {
-//         box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
-//         width: 175px;
-//         height: 175px;
-//         border-radius: 50%;
-//     }
     .photo h2{
         font-size: 2.5em;
     }
@@ -95,7 +100,12 @@
     }
     .compétenceText{
         h2{
-        }
+            margin: 0;
+        }    
+        .titleCompetence{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+    }
         ul{
 
             li{
@@ -103,6 +113,7 @@
             }
         }
     }
+
     .cv{
         font-size: 1.8em;
     }
