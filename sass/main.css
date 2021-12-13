@@ -480,7 +480,7 @@ header.sticky {
   header .navbar li a {
     text-decoration: none;
     color: #fff;
-    font-size: 100%;
+    font-size: 3vw;
     font-weight: 300;
   }
 
