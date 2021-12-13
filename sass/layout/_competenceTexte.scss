@@ -1,7 +1,11 @@
 .compétenceText{
+    .space{
+        opacity: 0;
+    }
     h2{
         margin-left: 60%;
-        margin-bottom: 5rem;
+        
+        
     }
     margin-top: 10vh;
     ul{
@@ -22,4 +26,8 @@
             line-height: 1.5rem;
         }
     }
+}
+.titleCompetence{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }

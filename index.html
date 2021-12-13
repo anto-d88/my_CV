@@ -32,14 +32,15 @@
     <article class="menuToggle" onclick="toggleMenu();">|||</article>
     <ul class="navbar">
       <li><a href="#profil" onclick="toggleMenu();">Profil</a></li>
-      <li><a href="#competence" onclick="toggleMenu();">Competences</a></li>
-      <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+      <li><a href="#compétenceTexte" onclick="toggleMenu();">Competences</a></li>
+      <li class="Contact"><a href="#contact" onclick="toggleMenu();">Contact</a></li>
     </ul> 
         <section class="icone">
           <a href="#"><img src="./img/icons8-gallery-64.png" class="gallery" alt="portefolio"></a>
           <a href="https://github.com/anto-d88"><img src="./img/icongithub.svg" class="github" alt=""></a>
-          <a href="CV-pdf.pdf"><img src="./img/pdfIcone.svg" class="pdf" alt=""></a>
+          <a href="CV.pdf"><img src="./img/pdfIcone.svg" class="pdf" alt=""></a>
         </section>
+        <section id="modcont" class="cardcont"></section>
   </header> 
 
   <main>
@@ -54,20 +55,23 @@
 
     </article>
     <article class="degra">
-    <!--<section>
-      <figure><img src="./img/iconfb.png" alt=""></figure>-->
-      
-    </section>
+
     <section class="profil" id="profil">
-      <h2><span>P</span>rofil</h2>
+      <h2 class="titleProfil"><span>P</span>rofil</h2>
       <p>Je suis former à l'integration et le developpement d’applications web. 
         En ce momment je suis en formation de CDA.
         Je recherche donc un stage ou je pourrais acquérir de solide experiences.
         Lors de mes précédentes missions, j’ai eu souvent l’occasion de travailler 
         en group et de pratiquer des méthodes agile. Ces opportunités, 
-        m’ont permis de développer mon esprit d’équipe. </p>
-  <section class="compétenceText" id="compétenceTexte">
-    <h2><span>C</span>ompétences</h2>
+        m’ont permis de développer mon esprit d’équipe. </p> 
+   <figure class="logogit">
+      <img class="git" src="./img/iconeGit.svg" alt="logoGit">
+    </figure>
+  <section class="compétenceText" >
+
+
+    <h2 class="space" id="compétenceTexte">Espace</h2>
+    <h2 class="titleCompetence"><span>C</span>ompétences</h2>
     <ul>
       <li><span>C1</span> Maquetter une application</li>
         <li><span>C2</span> Créer une interface utilisateur efficiente et une bonne expérience utilisateur (UX/UI) : </li>
@@ -88,7 +92,7 @@
     </ul>
   </section>
 
-   <section class="competence" id="competence">
+   <section class="competence" >
           <h2>Competance</h2>
     <figure  class="competence1">
           <img src="./img/iconhtml.png" alt="">

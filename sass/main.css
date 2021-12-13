@@ -86,6 +86,63 @@ header {
     opacity: 1;
   }
 }
+.cardcont {
+  z-index: 10;
+  width: 100%;
+  height: 1000vh;
+  top: 0;
+  position: fixed;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.modalContact {
+  position: relative;
+  z-index: 100;
+  top: 10vh;
+  right: -80%;
+  background-color: #fff;
+  width: 30vh;
+  height: 25vh;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  align-content: center;
+  text-align: center;
+  border-radius: 1vh;
+  border: 3px solid #177D9D;
+  animation-name: animatetop;
+  animation-duration: 1s;
+}
+.modalContact p {
+  padding: 2vh;
+}
+
+@keyframes animatetop {
+  from {
+    right: -100%;
+    opacity: 0;
+  }
+  to {
+    right: -80%;
+    opacity: 1;
+  }
+}
+.buttContact {
+  justify-self: center;
+  border-radius: 2vh;
+  width: 10vh;
+  height: 4vh;
+  background-color: #177D9D;
+  position: relative;
+}
+.buttContact .Mail {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-size: 70%;
+}
+
 .photo {
   display: grid;
 }
@@ -194,10 +251,13 @@ header .navbar li a:hover {
 
 .profil h2 {
   margin-left: 70%;
-  margin-top: 5rem;
   color: #fff;
   font-size: 3em;
   text-transform: capitalize;
+}
+
+.titleProfil {
+  margin-top: 5rem;
 }
 
 .profil h2 span {
@@ -210,6 +270,16 @@ header .navbar li a:hover {
   text-align: justify;
   color: #ffff;
   font-size: 1.8em;
+}
+
+.logogit {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.git {
+  width: 50%;
 }
 
 .competence {
@@ -273,9 +343,11 @@ header .navbar li a:hover {
 .compétenceText {
   margin-top: 10vh;
 }
+.compétenceText .space {
+  opacity: 0;
+}
 .compétenceText h2 {
   margin-left: 60%;
-  margin-bottom: 5rem;
 }
 .compétenceText ul {
   display: grid;
@@ -294,6 +366,11 @@ header .navbar li a:hover {
   font-size: 1.3rem;
   font-weight: 600;
   color: #FFB800;
+}
+
+.titleCompetence {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 .degra {
@@ -374,6 +451,23 @@ footer p {
 }
 
 @media (max-width: 991px) {
+  .modalContact {
+    border-radius: 0;
+    border: none;
+    width: 100%;
+    right: 0;
+  }
+  @keyframes animatetop {
+    from {
+      right: 0;
+      opacity: 0;
+    }
+    to {
+      right: 0;
+      opacity: 1;
+    }
+  }
+
   header,
 header.sticky {
     padding: 10px 20px;
@@ -386,7 +480,7 @@ header.sticky {
   header .navbar li a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.6em;
+    font-size: 100%;
     font-weight: 300;
   }
 
@@ -394,15 +488,11 @@ header.sticky {
     display: none;
   }
 
-  /*section{
-      padding: 20px;
-  }*/
   header .navbar.active {
+    z-index: 10;
     width: 100%;
-    /*height: calc(100% -68px);*/
     position: fixed;
     top: 68px;
-    left: 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -415,13 +505,14 @@ header.sticky {
     position: relative;
     color: #fff;
     font-size: 2rem;
-    rotate: 90deg;
+    transform: rotate(90deg);
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
   }
 
   .menuToggle.active {
+    color: #fff;
     background-size: 25px;
     background-repeat: no-repeat;
     background-origin: center;
@@ -465,6 +556,13 @@ header.sticky {
     font-size: 1.6em;
   }
 
+  .compétenceText h2 {
+    margin: 0;
+  }
+  .compétenceText .titleCompetence {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   .compétenceText ul li {
     font-size: 1rem;
   }
@@ -527,7 +625,17 @@ header.sticky {
     padding: 20px 50px;
   }
 }
+@media (max-width: 400px) {
+  header .navbar.active {
+    width: 93.5%;
+    top: 57px;
+  }
+}
 @media (max-width: 666px) {
+  header .navbar.active {
+    top: 57px;
+  }
+
   .t .tp {
     color: #FFB800;
     font-size: 1.2em;
