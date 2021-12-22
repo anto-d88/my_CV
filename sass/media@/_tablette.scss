@@ -1,42 +1,42 @@
 @media (max-width: 991px) {
-    .modalContact{
+    .modalContact {
         border-radius: 0;
         border: none;
         width: 100%;
         right: 0;
         @keyframes animatetop {
-    from {
-        right:0; 
-        opacity:0;
-      }
-      to {
-        right:0; 
-        opacity:1;
-      }
+            from {
+                right: 0;
+                opacity: 0;
+            }
+            to {
+                right: 0;
+                opacity: 1;
+            }
+        }
     }
-}
 
-    header, 
-    header.sticky{
+    header,
+    header.sticky {
         padding: 10px 20px;
     }
-    
-    header .navbar li{
+
+    header .navbar li {
         margin-left: 0px;
     }
-    
+
     header .navbar li a {
         text-decoration: none;
         color: #fff;
         font-size: 3vw;
         font-weight: 300;
     }
-    
-    .navbar{
+
+    .navbar {
         display: none;
     }
-    
-    header .navbar.active{
+
+    header .navbar.active {
         z-index: 10;
         width: 100%;
         position: fixed;
@@ -44,11 +44,11 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        background:#177D9D;
+        background: #177d9d;
         align-items: center;
     }
-    
-    .menuToggle{
+
+    .menuToggle {
         display: block;
         position: relative;
         color: #fff;
@@ -58,68 +58,64 @@
         background-position: center;
         cursor: pointer;
     }
-    
-    .menuToggle.active
-    {
+
+    .menuToggle.active {
         color: #fff;
         background-size: 25px;
         background-repeat: no-repeat;
         background-origin: center;
     }
-    
-    header.sticky .menuToggle{
+
+    header.sticky .menuToggle {
         filter: invert(1);
     }
-    .icone{
+    .icone {
         top: 10vh;
     }
-    .contactbox{
+    .contactbox {
         margin-left: 25%;
     }
     .contactbox {
         max-width: 400px;
         margin: auto;
     }
-    .contenu{
+    .contenu {
         background-image: url(../img/Circuit-Tree-Vector_Recadrer1.jpg);
         opacity: 0.75;
     }
 
-    .photo h2{
+    .photo h2 {
         font-size: 2.5em;
     }
     .photo h2 span {
-        font-size: 1.5em;    
+        font-size: 1.5em;
     }
     .profil h2 {
-
         font-size: 2.2em;
     }
     .profil p {
         font-size: 1.6em;
     }
-    .compétenceText{
-        h2{
+    .compétenceText {
+        h2 {
             margin: 0;
-        }    
-        .titleCompetence{
+        }
+        .titleCompetence {
             margin-top: 1rem;
             margin-bottom: 1rem;
-    }
-        ul{
-
-            li{
+        }
+        ul {
+            li {
                 font-size: 1rem;
             }
         }
     }
 
-    .cv{
+    .cv {
         font-size: 1.8em;
     }
     .profil {
         max-width: 80%;
-    
     }
     .t h3 {
         color: rgba(0, 0, 0, 0);
@@ -128,10 +124,8 @@
         color: rgba(0, 0, 0, 0);
     }
 
-    
     .competence1 {
-        margin-top: 4rem ;
-
+        margin-top: 4rem;
     }
     .competence1 img {
         width: 80px;
@@ -139,11 +133,9 @@
     }
     .t {
         margin-top: 4rem;
-        
     }
     .competence2 {
-        margin-top: 4rem ;
-        
+        margin-top: 4rem;
     }
     .competence2 img {
         width: 70px;
@@ -152,21 +144,17 @@
     .t2 {
         margin-top: 4rem;
         margin-bottom: 10rem;
-        
-        
     }
     .t .tp {
-        color: #FFB800;
+        color: #ffb800;
         font-size: 1.5em;
     }
     .t2 .tp {
-        color: #FFB800;
+        color: #ffb800;
         font-size: 1.5em;
     }
     .contactbox {
         margin-top: 70px;
         padding: 20px 50px;
-
     }
-
 }

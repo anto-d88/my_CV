@@ -8,10 +8,10 @@
 //     /*background-size: cover;*/
 //     /*background-color: rgb(18, 59, 137, 0.5);*/
 //     background-image: url(../img/Circuit-Tree-Vector.jpg);
-//     opacity: 0.75 ; 
+//     opacity: 0.75 ;
 //     background-size: cover;
 // }
-.photo{
+.photo {
     display: grid;
 }
 img[src="./img/photo.png"] {
@@ -32,13 +32,12 @@ img[src="./img/photo.png"] {
     align-items: center;
     background-image: url(../img/paysage.jpg);
     background-size: cover;
-    
 }
-.banniere .contenu{
+.banniere .contenu {
     max-width: 100%;
     text-align: center;
 }
-.photo h2{
+.photo h2 {
     text-align: center;
     position: relative;
     color: #fff;
@@ -47,7 +46,6 @@ img[src="./img/photo.png"] {
 }
 .photo h2 span {
     position: relative;
-    color: #FFB800;
-    font-size: 1.5em;    
+    color: #ffb800;
+    font-size: 1.5em;
 }
-

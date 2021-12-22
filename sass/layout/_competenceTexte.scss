@@ -1,23 +1,21 @@
-.compétenceText{
-    .space{
+.compétenceText {
+    .space {
         opacity: 0;
     }
-    h2{
+    h2 {
         margin-left: 60%;
-        
-        
     }
     margin-top: 10vh;
-    ul{
+    ul {
         display: grid;
         grid-template-columns: repeat(1, 14fr);
         align-items: space-between;
         text-align: justify;
-        li{
-            span{
+        li {
+            span {
                 font-size: 1.3rem;
                 font-weight: 600;
-                color: #FFB800;
+                color: #ffb800;
             }
             padding: 1vh;
             color: #fff;
@@ -27,7 +25,7 @@
         }
     }
 }
-.titleCompetence{
+.titleCompetence {
     margin-top: 2rem;
     margin-bottom: 5rem;
 }

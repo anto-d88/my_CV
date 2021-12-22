@@ -1,41 +1,41 @@
 .contenu {
-    position: absolute;
-    width: 100%;
-    min-height: 100vh;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    /*background-size: cover;*/
-    /*background-color: rgb(18, 59, 137, 0.5);*/
-    opacity: 0.75 ; 
-    background-image: url(../img/Circuit-Tree-Vector.jpg);
-    background-size: cover;
-    -webkit-animation-name: animateform;
-    -webkit-animation-duration: 0.8s;
-    animation-name: animateform;
-    animation-duration: 0.8s;
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  /*background-size: cover;*/
+  /*background-color: rgb(18, 59, 137, 0.5);*/
+  opacity: 0.75;
+  background-image: url(../img/Circuit-Tree-Vector.jpg);
+  background-size: cover;
+  -webkit-animation-name: animateform;
+  -webkit-animation-duration: 0.8s;
+  animation-name: animateform;
+  animation-duration: 0.8s;
 }
 @-webkit-keyframes animateform {
-    from {
-      left: -100%;
+  from {
+    left: -100%;
     //   opacity: 0;
-    }
-    to {
-      left: 0;
-    //   opacity: 1;
-    }
   }
-  
-  @keyframes animateform {
-    from {
-      left: -100%;
+  to {
+    left: 0;
+    //   opacity: 1;
+  }
+}
+
+@keyframes animateform {
+  from {
+    left: -100%;
     //   opacity: 0;
-    }
-    to {
-      left: 0;
-    //   opacity: 1;
-    }
   }
+  to {
+    left: 0;
+    //   opacity: 1;
+  }
+}
 // .photo2{
 //     display: grid;
 // }
@@ -58,7 +58,6 @@
 //     background-image: url(../img/paysage.jpg);
 //     background-size: cover;
 
-    
 // }
 
 // .banniere2 .contenu2{
@@ -75,6 +74,5 @@
 // .photo2 h2 span {
 //     position: relative;
 //     color: #FFB800;
-//     font-size: 1.5em;    
+//     font-size: 1.5em;
 // }
-
