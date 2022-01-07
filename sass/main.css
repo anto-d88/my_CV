@@ -11,7 +11,7 @@
 }
 
 header {
-  background: #177D9D;
+  background: #177d9d;
   position: sticky;
   top: 0%;
   left: 0%;
@@ -30,7 +30,7 @@ header {
 }
 
 .cv span {
-  color: #FFB800;
+  color: #ffb800;
   font-size: 1.5em;
 }
 
@@ -110,7 +110,7 @@ header {
   align-content: center;
   text-align: center;
   border-radius: 1vh;
-  border: 3px solid #177D9D;
+  border: 3px solid #177d9d;
   animation-name: animatetop;
   animation-duration: 1s;
 }
@@ -133,7 +133,7 @@ header {
   border-radius: 2vh;
   width: 10vh;
   height: 4vh;
-  background-color: #177D9D;
+  background-color: #177d9d;
   position: relative;
 }
 .buttContact .Mail {
@@ -182,7 +182,7 @@ img[src="./img/photo.png"] {
 
 .photo h2 span {
   position: relative;
-  color: #FFB800;
+  color: #ffb800;
   font-size: 1.5em;
 }
 
@@ -261,7 +261,7 @@ header .navbar li a:hover {
 }
 
 .profil h2 span {
-  color: #FFB800;
+  color: #ffb800;
   font-size: 1.5em;
 }
 
@@ -311,7 +311,7 @@ header .navbar li a:hover {
 }
 
 .t .tp {
-  color: #FFB800;
+  color: #ffb800;
   font-size: 2em;
 }
 
@@ -336,7 +336,7 @@ header .navbar li a:hover {
 }
 
 .t2 .tp {
-  color: #FFB800;
+  color: #ffb800;
   font-size: 2em;
 }
 
@@ -365,7 +365,7 @@ header .navbar li a:hover {
 .compétenceText ul li span {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #FFB800;
+  color: #ffb800;
 }
 
 .titleCompetence {
@@ -381,7 +381,7 @@ header .navbar li a:hover {
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background: linear-gradient(#177D9D, #858181);
+  background: linear-gradient(#177d9d, #858181);
 }
 
 .contactbox {
@@ -424,7 +424,7 @@ header .navbar li a:hover {
   font-size: 1em;
   font-weight: 700;
   color: #fff;
-  background: #FFB800;
+  background: #ffb800;
   display: inline-block;
   cursor: pointer;
   text-transform: uppercase;
@@ -441,7 +441,7 @@ header .navbar li a:hover {
 footer {
   position: relative;
   width: 100%;
-  background: #177D9D;
+  background: #177d9d;
   text-align: center;
 }
 footer p {
@@ -496,7 +496,7 @@ header.sticky {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #177D9D;
+    background: #177d9d;
     align-items: center;
   }
 
@@ -611,12 +611,12 @@ header.sticky {
   }
 
   .t .tp {
-    color: #FFB800;
+    color: #ffb800;
     font-size: 1.5em;
   }
 
   .t2 .tp {
-    color: #FFB800;
+    color: #ffb800;
     font-size: 1.5em;
   }
 
@@ -637,12 +637,12 @@ header.sticky {
   }
 
   .t .tp {
-    color: #FFB800;
+    color: #ffb800;
     font-size: 1.2em;
   }
 
   .t2 .tp {
-    color: #FFB800;
+    color: #ffb800;
     font-size: 1.2em;
   }
 
