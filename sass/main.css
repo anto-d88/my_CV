@@ -98,7 +98,6 @@ header {
 }
 
 .modalContact {
-  position: relative;
   z-index: 100;
   top: 10vh;
   right: -80%;
