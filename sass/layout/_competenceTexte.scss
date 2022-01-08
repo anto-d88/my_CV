@@ -11,7 +11,15 @@
         grid-template-columns: repeat(1, 14fr);
         align-items: space-between;
         text-align: justify;
+        .date{
+            list-style: circle;
+            text-decoration:underline;
+        }
+        .LI{
+            text-decoration:underline;
+        }
         li {
+            list-style: none;
             span {
                 font-size: 1.3rem;
                 font-weight: 600;
@@ -19,7 +27,6 @@
             }
             padding: 1vh;
             color: #fff;
-            list-style: none;
             font-size: 1.3rem;
             line-height: 1.5rem;
         }
